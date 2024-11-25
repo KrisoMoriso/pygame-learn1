@@ -21,7 +21,7 @@ snail_rect = snail.get_rect(midbottom=(800, 800))
 player = py.image.load('player_walk_1.png').convert_alpha()
 player_rect = player.get_rect(midbottom=(200, 800))
 player_gravity = 0
-lock_mouse = False
+mouse_lock = False
 while True:
     for event in py.event.get():
         if event.type == py.QUIT:
